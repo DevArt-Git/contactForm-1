@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактная форма</title>
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="titleForm ">
+            <h1 class="center">Свяжитесь с нами</h1>
+        </div>
+        <div class="containerFormWithDescription">
+            <div class="description">
+                <p>Пожалуйста, воспользуйтесь этой контактной формой для связи с нами. Введите
+                    ваше имя, электронную почту и сообщение, и мы ответим вам в кратчайшие сроки. Мы ценим
+                    ваше мнение и стремимся обеспечить высокое качество обслуживания. Спасибо за ваш интерес к нашей
+                    компании!</p>
+            </div>
+            <div class="formContainer">
+                <input type="text" id="name" placeholder="Имя">
+                <input type="email" name="" id="email" placeholder="E-mail">
+                <textarea name="" id="textarea" placeholder="Ваше сообщение"></textarea>
+                <input onclick="validation()" type="submit" id="submitButton" class="" value="Отправить сообщение">
+                <div class="message">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>

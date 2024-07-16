@@ -1,0 +1,88 @@
+body {
+    /* min-height: 100%; */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    background-color: rgba(127, 255, 212, 0.146);
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.titleForm h1 {
+    font-size: 38px;
+}
+
+.containerFormWithDescription {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    margin: 10px 50px;
+}
+.description > p {
+    font-size: 24px;
+}
+
+.formContainer > input {
+    padding: 12px;
+    margin: 10px 20px;
+    border: 1px solid #00000056;
+    border-radius: 5px;
+}
+
+.formContainer {
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea {
+    height: 200px;
+    padding: 12px;
+    margin: 10px 20px;
+    border: 1px solid #00000056;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.message {
+    display: none;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 10px;
+    background-color: rgba(127, 255, 212, 0.146);
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
